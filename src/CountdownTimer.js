@@ -45,7 +45,7 @@ function CountdownTimer() {
             onClick={toggleTimer}
             className={`bg-blue-600 text-white font-bold py-2 px-4 rounded mr-4 ${isActive ? 'bg-red-500 hover:bg-red-600' : 'hover:bg-blue-600'}`}
           >
-             {isActive ? 'Pause' : 'Start'}
+             {isActive ? 'Pause' : 'Start/Resume'}
           </button>
           <button
             onClick={resetTimer}
