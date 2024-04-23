@@ -1,7 +1,12 @@
 .App {
   text-align: center;
 }
-
+.App-container{
+  /*background: linear-gradient(to right, #a8c0ff, #3f2b96);*/
+  padding : 30px;
+  width : 600px;
+ /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)*/
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
